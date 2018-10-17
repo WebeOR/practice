@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Document</title>
+
+    <style>
+
+      html, body {
+        scroll-behavior: smooth;
+      }
+
+      .wrapper {
+        min-height: 100vh;
+      }
+
+      .main,
+      .container {
+        width: 100%;
+        max-width: 1280px;
+        margin: 0 auto;
+      }
+
+      .header {
+        background-color: green;
+      }
+    
+      .hello,
+      .poka {
+        position: relative;
+        min-height: 100vh;
+      }
+
+      .hello {
+        background-color: blue;
+      }
+
+      .square {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 200px;
+        height: 200px;
+        background-color: red;
+      }
+    
+    </style>
+
+  </head>
+  <body>
+
+    <div class="wrapper">
+
+      <header class="header">
+        <div class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolorem eligendi magni unde omnis provident, quis dolores nobis commodi, ipsam facilis harum voluptates ab possimus dicta illum. Quas, ea pariatur.</div>
+      </header>
+
+      <main class="main">
+        <h1>Hello World!</h1>
+
+        <a href="#hello">hello</a>
+        <a href="#poka">poka</a>
+
+        <section id="hello" class="hello">
+          <h3>Hello</h3>
+          <div class="square"></div>
+        </section>
+        
+        <section id="hello" class="poka">
+          <h3>poka</h3>
+        </section>
+      </main>
+
+    </div>
+    
+  </body>
+</html>
