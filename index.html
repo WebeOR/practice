@@ -4,40 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <title>Document</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/section/index.css" />
+
     <style>
-
-      html, body {
-        scroll-behavior: smooth;
-      }
-
-      .wrapper {
-        min-height: 100vh;
-      }
-
-      .main,
-      .container {
-        width: 100%;
-        max-width: 1280px;
-        margin: 0 auto;
-      }
-
-      .header {
-        background-color: green;
-      }
-    
-      .hello,
-      .poka {
-        position: relative;
-        min-height: 100vh;
-      }
-
-      .hello {
-        background-color: blue;
-      }
-
+      
       .square {
         position: absolute;
         top: 0;
@@ -52,7 +29,7 @@
   </head>
   <body>
 
-    <div class="wrapper">
+    <div id="wrapper" class="wrapper">
 
       <header class="header">
         <div class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolorem eligendi magni unde omnis provident, quis dolores nobis commodi, ipsam facilis harum voluptates ab possimus dicta illum. Quas, ea pariatur.</div>
@@ -64,17 +41,163 @@
         <a href="#hello">hello</a>
         <a href="#poka">poka</a>
 
-        <section id="hello" class="hello">
+        <section id="hello" class="section hello">
           <h3>Hello</h3>
-          <div class="square"></div>
+          <div class="square">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil vero distinctio voluptates! Veniam dolorem, dolores doloremque tempora, laudantium vero voluptate illo nostrum, aspernatur incidunt corporis explicabo. Hic vero officiis sint!</p>
+          </div>
         </section>
         
-        <section id="hello" class="poka">
+        <section id="poka" class="section poka">
           <h3>poka</h3>
+          <ul class="product-list">
+
+            <li class="product-item">
+              <img
+                src="//dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                alt=""
+                class="product-item__picture" />
+              <h5 class="product-item__title">Пицца!</h5>
+              <p class="product-item__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, magni! Asperiores dolorum accusantium assumenda quidem et! Asperiores facere error, fugiat laudantium animi aut hic recusandae, unde consectetur placeat dolore nostrum?</p>
+              <div class="product-item__actions">
+                <span class="product-item__price">1 300 ₽</span>
+                <!-- <span class="product-item__price"></span> -->
+                <button type="button" class="product-item__buy-button">Купить</button>
+              </div>
+            </li>
+
+            <li class="product-item">
+              <img
+                src="//dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                alt=""
+                class="product-item__picture" />
+              <h5 class="product-item__title">Пицца!</h5>
+              <p class="product-item__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, magni! Asperiores dolorum accusantium assumenda quidem et! Asperiores facere error, fugiat laudantium animi aut hic recusandae, unde consectetur placeat dolore nostrum?</p>
+              <div class="product-item__actions">
+                <span class="product-item__price">1 300 ₽</span>
+                <!-- <span class="product-item__price"></span> -->
+                <button type="button" class="product-item__buy-button">Купить</button>
+              </div>
+            </li>
+
+            <li class="product-item">
+              <img
+                src="//dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                alt=""
+                class="product-item__picture" />
+              <h5 class="product-item__title">Пицца!</h5>
+              <p class="product-item__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, magni! Asperiores dolorum accusantium assumenda quidem et! Asperiores facere error, fugiat laudantium animi aut hic recusandae, unde consectetur placeat dolore nostrum?</p>
+              <div class="product-item__actions">
+                <span class="product-item__price">1 300 ₽</span>
+                <!-- <span class="product-item__price"></span> -->
+                <button type="button" class="product-item__buy-button">Купить</button>
+              </div>
+            </li>
+
+            <li class="product-item">
+              <img
+                src="//dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                alt=""
+                class="product-item__picture" />
+              <h5 class="product-item__title">Пицца!</h5>
+              <p class="product-item__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, magni! Asperiores dolorum accusantium assumenda quidem et! Asperiores facere error, fugiat laudantium animi aut hic recusandae, unde consectetur placeat dolore nostrum?</p>
+              <div class="product-item__actions">
+                <span class="product-item__price">1 300 ₽</span>
+                <!-- <span class="product-item__price"></span> -->
+                <button type="button" class="product-item__buy-button">Купить</button>
+              </div>
+            </li>
+
+            <li class="product-item">
+              <img
+                src="//dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                alt=""
+                class="product-item__picture" />
+              <h5 class="product-item__title">Пицца!</h5>
+              <p class="product-item__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, magni! Asperiores dolorum accusantium assumenda quidem et! Asperiores facere error, fugiat laudantium animi aut hic recusandae, unde consectetur placeat dolore nostrum?</p>
+              <div class="product-item__actions">
+                <span class="product-item__price">1 300 ₽</span>
+                <!-- <span class="product-item__price"></span> -->
+                <button type="button" class="product-item__buy-button">Купить</button>
+              </div>
+            </li>
+
+            <li class="product-item">
+              <img
+                src="//dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                alt=""
+                class="product-item__picture" />
+              <h5 class="product-item__title">Пицца!</h5>
+              <p class="product-item__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, magni! Asperiores dolorum accusantium assumenda quidem et! Asperiores facere error, fugiat laudantium animi aut hic recusandae, unde consectetur placeat dolore nostrum?</p>
+              <div class="product-item__actions">
+                <span class="product-item__price">1 300 ₽</span>
+                <!-- <span class="product-item__price"></span> -->
+                <button type="button" class="product-item__buy-button">Купить</button>
+              </div>
+            </li>
+
+            <li class="product-item _fill">
+              <img
+                src="//dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                alt=""
+                class="product-item__picture" />
+              <h5 class="product-item__title">Пицца!</h5>
+              <p class="product-item__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, magni! Asperiores dolorum accusantium assumenda quidem et! Asperiores facere error, fugiat laudantium animi aut hic recusandae, unde consectetur placeat dolore nostrum?</p>
+              <div class="product-item__actions">
+                <span class="product-item__price">1 300 ₽</span>
+                <!-- <span class="product-item__price"></span> -->
+                <button type="button" class="product-item__buy-button">Купить</button>
+              </div>
+            </li>
+
+            <li class="product-item">
+              <img
+                src="//dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                alt=""
+                class="product-item__picture" />
+              <h5 class="product-item__title">Пицца!</h5>
+              <p class="product-item__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, magni! Asperiores dolorum accusantium assumenda quidem et! Asperiores facere error, fugiat laudantium animi aut hic recusandae, unde consectetur placeat dolore nostrum?</p>
+              <div class="product-item__actions">
+                <span class="product-item__price">1 300 ₽</span>
+                <!-- <span class="product-item__price"></span> -->
+                <button type="button" class="product-item__buy-button">Купить</button>
+              </div>
+            </li>
+
+            <li class="product-item _fill">
+              <img
+                src="//dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                alt=""
+                class="product-item__picture" />
+              <h5 class="product-item__title">Пицца!</h5>
+              <p class="product-item__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, magni! Asperiores dolorum accusantium assumenda quidem et! Asperiores facere error, fugiat laudantium animi aut hic recusandae, unde consectetur placeat dolore nostrum?</p>
+              <div class="product-item__actions">
+                <span class="product-item__price">1 300 ₽</span>
+                <!-- <span class="product-item__price"></span> -->
+                <button type="button" class="product-item__buy-button">Купить</button>
+              </div>
+            </li>
+
+            <li class="product-item">
+              <img
+                src="//dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/49c9bd34-f725-400d-bca5-81e6c8bacc76.jpg"
+                alt=""
+                class="product-item__picture" />
+              <h5 class="product-item__title">Пицца!</h5>
+              <p class="product-item__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, magni! Asperiores dolorum accusantium assumenda quidem et! Asperiores facere error, fugiat laudantium animi aut hic recusandae, unde consectetur placeat dolore nostrum?</p>
+              <div class="product-item__actions">
+                <span class="product-item__price">1 300 ₽</span>
+                <!-- <span class="product-item__price"></span> -->
+                <button type="button" class="product-item__buy-button">Купить</button>
+              </div>
+            </li>
+
+          </ul>
         </section>
       </main>
 
     </div>
     
   </body>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
 </html>
