@@ -1,0 +1,10 @@
+@import './layout.css';
+
+@import 'header.css';
+@import 'footer.css';
+
+@import './mobile/header.css';
+
+@import 'section/index.css';
+@import 'section/hello.css';
+@import 'section/poka.css';

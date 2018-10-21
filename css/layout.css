@@ -1,0 +1,34 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html, body {
+  scroll-behavior: smooth;
+  box-sizing: inherit;
+}
+
+.wrapper {
+  min-height: 100vh;
+}
+
+.main,
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.fx-auto {
+  flex: 1 1 auto;
+}
